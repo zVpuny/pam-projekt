@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shopping_list_main_menu_btn_text">Lista zakupów</string>
+    <string name="timer_main_menu_btn_text">Minutnik</string>
+    <string name="unit_calc_main_menu_btn_text">Kalkulator jednostek</string>
+    <string name="about_main_menu_btn_text">O programie</string>
+    <string name="add_list_hint">Nazwa listy zakupów</string>
+    <string name="add_list_element_hint">Treść wpisu</string>
+    <string name="list_name_error">Podaj nazwę listy!</string>
+    <string name="list_element_error">Wpisz treść!</string>
+    <string name="timer_title_bar">MINUTNIK</string>
+    <string name="shopping_list_title">LISTY ZAKUPÓW</string>
+    <string name="unit_calc_title">KALKULATOR JEDNOSTEK</string>
+    <string name="about_subtitle">Opis</string>
+    <string name="about_text">Aplikacja ma na celu zebranie w jednym miejscu funkcjonalności przydatnych przed i podczas gotowania.\nUmożliwia tworzenie list zakupów i zadań z możliwością zaznaczania zrealizowanych podpunktów,\nudostępnia prosty minutnik działający w tle oraz kalkulator, który umożliwia przeliczanie jednostek, w tym jednostek kuchennych</string>
+    <string name="about_author">Wykonał</string>
+    <string name="list_added_message">"Dodano listę: "</string>
+    <string name="about_title">O PROGRAMIE</string>
+    <string name="stop">Zatrzymaj</string>
+    <string name="resume">Wznów</string>
+    <string name="pause">Wstrzymaj</string>
+    <string name="liter">Litr</string>
+    <string name="milliliter">Mililitr</string>
+    <string name="gallon">Galon</string>
+    <string name="ounce">Uncja</string>
+    <string name="tablespoon">Łyżka</string>
+    <string name="teaspoon">Łyżeczka</string>
+    <string name="glass">Szklanka</string>
+    <string name="gram">Gram</string>
+    <string name="decagram">Dekagram</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="pound">Funt</string>
+    <string name="volume">Volume</string>
+    <string name="weight">Weight</string>
+
+    <string-array name="volume_units_array">
+        <item>@string/liter</item>
+        <item>@string/milliliter</item>
+        <item>@string/gallon</item>
+        <item>@string/ounce</item>
+        <item>@string/tablespoon</item>
+        <item>@string/teaspoon</item>
+        <item>@string/glass</item>
+    </string-array>
+
+    <string-array name="weight_units_array">
+        <item>@string/gram</item>
+        <item>@string/decagram</item>
+        <item>@string/kilogram</item>
+        <item>@string/pound</item>
+        <item>@string/ounce</item>
+    </string-array>
+    <string-array name="unit_categories">
+        <item>@string/volume</item>
+        <item>@string/weight</item>
+    </string-array>
+</resources>

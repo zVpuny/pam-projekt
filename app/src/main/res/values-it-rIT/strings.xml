@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KitchenUtils</string>
+    <string name="about_author">Autore</string>
+    <string name="list_added_message">Elenco aggiunto</string>
+    <string name="about_title">SUL PROGRAMMA</string>
+    <string name="stop">Fermare</string>
+    <string name="resume">Riprendere</string>
+    <string name="pause">Pausa</string>
+    <string name="shopping_list_main_menu_btn_text">Lista della spesa</string>
+    <string name="timer_main_menu_btn_text">Timer</string>
+    <string name="unit_calc_main_menu_btn_text">Calcolatrice di unità</string>
+    <string name="about_main_menu_btn_text">Sul programma</string>
+    <string name="add_list_hint">Nome della lista della spesa</string>
+    <string name="add_list_element_hint">Contenuto della voce</string>
+    <string name="list_name_error">Per favore, inserisci il nome della lista della spesa!</string>
+    <string name="list_element_error">Per favore, inserite il contenuto!</string>
+    <string name="timer_title_bar">TIMER</string>
+    <string name="shopping_list_title">LISTA DELLA SPESA</string>
+    <string name="unit_calc_title">CALCOLATRICE DI UNITA</string>
+    <string name="about_subtitle">Description</string>
+    <string name="about_text">L\'app è stata progettata per riunire in un unico posto le funzionalità utili prima e durante la cottura.\nPermette di creare liste della spesa e dei compiti con la possibilità di contrassegnare le sotto-voci completate.\nFornisce un semplice timer che funziona in background e una calcolatrice che permette di convertire le unità, comprese quelle della cucina.</string>
+    <string name="decagram">Decagramma</string>
+    <string name="kilogram">Chilogrammo</string>
+    <string name="pound">Pound</string>
+    <string name="weight">Peso</string>
+    <string name="volume">Volume</string>
+    <string name="gram">Grammo</string>
+    <string name="glass">Vetro</string>
+    <string name="tablespoon">Cucchiaio da tavola</string>
+    <string name="teaspoon">Cucchiaio da tè</string>
+    <string name="gallon">Gallone</string>
+    <string name="ounce">Oncia</string>
+    <string name="milliliter">Millilitri</string>
+    <string name="liter">Litri</string>
+</resources>

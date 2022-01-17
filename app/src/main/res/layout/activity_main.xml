@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_main">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="150dp"
+            app:srcCompat="@drawable/logo" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/shoppingListMainMenuBtn"
+            style="@style/mainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainMenuButtonColor4"
+            android:drawableStart="@drawable/ic_baseline_list_alt_24"
+            android:elevation="10dp"
+            android:text="@string/shopping_list_main_menu_btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/timerMainMenuBtn"
+            style="@style/mainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainMenuButtonColor3"
+
+            android:drawableLeft="@drawable/ic_baseline_alarm_24"
+            android:text="@string/timer_main_menu_btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/unitCalcMainMenuBtn"
+            style="@style/mainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainMenuButtonColor2"
+            android:drawableLeft="@drawable/ic_baseline_balance_24"
+            android:text="@string/unit_calc_main_menu_btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/aboutMainMenuBtn"
+            style="@style/mainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainMenuButtonColor1"
+            android:drawableLeft="@drawable/ic_outline_info_24"
+            android:text="@string/about_main_menu_btn_text" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+
+    tools:context=".timer.TimerActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_margin="20dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/minutesAddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="45dp"
+                android:background="@null"
+                android:clickable="true"
+                android:elevation="0dp"
+                android:outlineProvider="none"
+                app:backgroundTint="@android:color/transparent"
+                app:elevation="0dp"
+                app:srcCompat="@android:drawable/arrow_up_float"
+
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/secondsAddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="47dp"
+                android:background="@null"
+                android:clickable="true"
+                android:elevation="0dp"
+                android:outlineProvider="none"
+                app:backgroundTint="@android:color/transparent"
+                app:elevation="0dp"
+                app:srcCompat="@android:drawable/arrow_up_float"
+
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/minutesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:layout_weight="1"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"
+                android:textSize="75sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="75sp"
+                android:layout_weight="1"
+                android:ems="1"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"
+
+
+                android:text="@string/colon" />
+
+            <TextView
+                android:id="@+id/secondsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:ems="3"
+                android:layout_weight="1"
+
+                android:textAlignment="center"
+                android:textSize="75sp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_margin="20dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/minutesExtractBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="45dp"
+                android:background="@null"
+                android:clickable="true"
+                android:elevation="0dp"
+                android:outlineProvider="none"
+                app:backgroundTint="@android:color/transparent"
+                app:elevation="0dp"
+                app:srcCompat="@android:drawable/arrow_down_float"
+
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/secondsExtractBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="47dp"
+                android:background="@null"
+                android:clickable="true"
+                android:elevation="0dp"
+                android:outlineProvider="none"
+                app:backgroundTint="@android:color/transparent"
+                app:elevation="0dp"
+                app:srcCompat="@android:drawable/arrow_down_float"
+
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/setUpTimerButton"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/timerControlButton"
+            android:layout_marginTop="100dp"
+            android:text="@string/start" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/pauseTimerButton"
+                android:layout_height="wrap_content"
+                android:text="@string/pause"
+                android:visibility="visible"
+                style="@style/timerControlButton"
+                />
+
+            <Button
+                android:id="@+id/resumeTimerButton"
+                android:layout_height="wrap_content"
+                android:text="@string/resume"
+                android:visibility="gone"
+                style="@style/timerControlButton"
+                />
+
+            <Button
+                android:id="@+id/stopTimerButton"
+                android:layout_height="wrap_content"
+                android:text="@string/stop"
+                android:visibility="visible"
+                style="@style/timerControlButton"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

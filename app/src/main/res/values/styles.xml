@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mainMenuButton" parent="Widget.AppCompat.Button">
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingEnd">50dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:elevation">1000dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textAlignment"> center</item>
+        <item name="android:drawablePadding">15dp</item>
+
+
+    </style>
+
+    <style name="addEntryEditText" >
+        <item name="colorControlNormal">@color/primaryLightColor</item>
+        <item name="colorControlActivated">@color/primaryLightColor</item>
+        <item name="colorControlHighlight">@color/primaryLightColor</item>
+    </style>
+
+    <style name="timerControlButton">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:backgroundTint">@color/primaryLightColor</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:letterSpacing">0.35</item>
+   </style>
+
+    <style name="roundButton">
+        <item name="android:radius">12dp</item>
+        <item name="android:background">@color/secondaryColor</item>
+    </style>
+
+    <style name="unitCalcSpinner" >
+]        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingStart">5dp</item>
+
+
+    </style>
+
+
+
+</resources>

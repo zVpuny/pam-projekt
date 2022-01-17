@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name" translatable="false">KitchenUtils</string>
+    <string name="colon" translatable="false">:</string>
+    <string name="about_text">The app is designed to bring together in one place the functionality that is useful before and during cooking.\nIt allows you to create shopping and task lists with the ability to mark completed sub-items.\nIt provides a simple timer that runs in the background and a calculator that allows you to convert units, including kitchen units</string>
+    <string name="about_author_text" translatable="false">Michał Siekierski</string>
+    <string name="liter">Liter</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="gallon">Gallon</string>
+    <string name="ounce">Ounce</string>
+    <string name="tablespoon">Tablespoon</string>
+    <string name="teaspoon">Teaspoon</string>
+    <string name="glass">Glass</string>
+    <string name="gram">Gram</string>
+    <string name="decagram">Decagram</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="pound">Pound</string>
+    <string name="volume">Volume</string>
+    <string name="weight">Weight</string>
+
+    <string-array name="volume_units_array">
+        <item>@string/liter</item>
+        <item>@string/milliliter</item>
+        <item>@string/gallon</item>
+        <item>@string/ounce</item>
+        <item>@string/tablespoon</item>
+        <item>@string/teaspoon</item>
+        <item>@string/glass</item>
+    </string-array>
+
+    <string-array name="weight_units_array">
+        <item>@string/gram</item>
+        <item>@string/decagram</item>
+        <item>@string/kilogram</item>
+        <item>@string/pound</item>
+        <item>@string/ounce</item>
+    </string-array>
+
+    <string-array name="unit_categories">
+        <item>@string/volume</item>
+        <item>@string/weight</item>
+    </string-array>
+    <string name="start" translatable="false">Start</string>
+    <string name="about_author">Author</string>
+    <string name="list_added_message">"Added list: "</string>
+    <string name="about_title">ABOUT</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="shopping_list_main_menu_btn_text">Shopping list</string>
+    <string name="timer_main_menu_btn_text">Timer</string>
+    <string name="unit_calc_main_menu_btn_text">Unit Calculator</string>
+    <string name="about_main_menu_btn_text">About</string>
+    <string name="add_list_hint">Shopping list name</string>
+    <string name="add_list_element_hint">Entry content</string>
+    <string name="list_name_error">Please, enter shopping list name!</string>
+    <string name="list_element_error">Please, enter content!</string>
+    <string name="timer_title_bar">TIMER</string>
+    <string name="shopping_list_title">SHOPPING LIST</string>
+    <string name="unit_calc_title">UNIT CALCULATOR</string>
+    <string name="about_subtitle">Description</string>
+</resources>
